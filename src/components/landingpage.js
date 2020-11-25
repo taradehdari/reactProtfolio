@@ -6,7 +6,17 @@ class Landing extends Component {
         return(
             <div style={{width: '100%', margin: 'auto'}}>
                 <Grid className="landing-grid">
-                    <Cell col={12}></Cell>
+                    <Cell col={12}>
+                        <img 
+                            src="https://pbs.twimg.com/profile_images/1239703271486287872/dVtw-a4M_400x400.jpg"
+                            alt="tara"
+                            className="tara-img"
+                        />
+
+                        <div className="banner-text">
+                            <h1>Full Stack Web Developer</h1>
+                        </div>
+                    </Cell>
                 </Grid>
             </div>
         )
