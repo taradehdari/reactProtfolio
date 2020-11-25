@@ -6,9 +6,9 @@ import { Link } from 'react-router-dom';
 
 function App() {
   return (
-    <div style={{height: '300px', position: 'relative'}}>
-    <Layout style={{background: 'url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuISvMr87fnjGUcxM6HMdoT_EwW3S18zpbFQ&usqp=CAU) center / cover'}}>
-        <Header transparent title="Title" style={{color: 'white'}}>
+    <div className="demo-big-content">
+    <Layout>
+        <Header className="header-color" title="Title" scroll>
             <Navigation>
                 <Link to="/resume">Resume</Link>
                 <Link to="/aboutme">About Me</Link>
