@@ -19,6 +19,22 @@ class Landing extends Component {
                             <hr/>
 
                             <p> HTML/CSS | BOOTSTRAP | JAVASCRIPT | REACT | NODEJS | EXPRESS | MONGODB </p>
+
+                            <div className="social-links">
+
+                                {/* Linkedin tag */}
+                                <a rel="noopener noreferrer" href="https://www.linkedin.com/in/tara-dehdari-a82880132/" target="_blank"> 
+                                    <i className="fa fa-linkedin-square" area-hidden="true" />
+                                </a>
+                                {/* Github tag */}
+                                <a rel="noopener noreferrer" href="https://github.com/taradehdari">
+                                    <i className="fa fa-github-square" area-hidden="true" /> 
+                                </a>
+                                {/* Facebook tag */}
+                                <a rel="noopener noreferrer" href="https://www.facebook.com/tara.dehdari">
+                                    <i className="fa fa-facebook-square" area-hidden="true" /> 
+                                </a>
+                            </div>
                         </div>
                     </Cell>
                 </Grid>
