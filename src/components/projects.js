@@ -7,42 +7,220 @@ class Projects extends Component {
         this.state = { activeTab: 0 };
     }
     
-    toggleCateories() {
+    toggleCategories() {
+
         if(this.state.activeTab === 0) {
         return(
-            <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                <CardTitle style={{color: '#fff', height:'176px', background: 'url(https://media.sproutsocial.com/uploads/2015/04/What-is-an-API.png) center / cover'}}> 
-                    API project #1 
-                </CardTitle>
-                <CardText>
-                    Lyric App used, bla bla bla bla bla. 
-                </CardText>
-                <CardActions border>
-                    <Button colored>GitHub</Button>
-                    <Button colored>LiveDemo</Button>
-                </CardActions>
-                <CardMenu style={{color: '#fff'}}>
-                    <IconButton name="share" />
-                </CardMenu>
-            </Card>
+            <div className="projects-grid">
+                {/* this is project one */}
+                <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                    <CardTitle style={{color: '#fff', height:'176px', background: 'url(https://media.sproutsocial.com/uploads/2015/04/What-is-an-API.png) center / cover'}}> 
+                        API project #1 
+                    </CardTitle>
+                    <CardText>
+                        Lyric App used, bla bla bla bla bla. 
+                    </CardText>
+                    <CardActions border>
+                        <Button colored>GitHub</Button>
+                        <Button colored>Live Demo</Button>
+                    </CardActions>
+                    <CardMenu style={{color: '#fff'}}>
+                        <IconButton name="share" />
+                    </CardMenu>
+                </Card>
+                {/* this is project two */}
+                <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                    <CardTitle style={{color: '#fff', height:'176px', background: 'url(https://media.sproutsocial.com/uploads/2015/04/What-is-an-API.png) center / cover'}}> 
+                        API project #2 
+                    </CardTitle>
+                    <CardText>
+                        Weather APP used, bla bla bla bla bla. 
+                    </CardText>
+                    <CardActions border>
+                        <Button colored>GitHub</Button>
+                        <Button colored>Live Demo</Button>
+                    </CardActions>
+                    <CardMenu style={{color: '#fff'}}>
+                        <IconButton name="share" />
+                    </CardMenu>
+                </Card>
+                {/* this is project three */}
+                <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                    <CardTitle style={{color: '#fff', height:'176px', background: 'url(https://media.sproutsocial.com/uploads/2015/04/What-is-an-API.png) center / cover'}}> 
+                        API project #3 
+                    </CardTitle>
+                    <CardText>
+                        bla bla bla bla 
+                    </CardText>
+                    <CardActions border>
+                        <Button colored>GitHub</Button>
+                        <Button colored>Live Demo</Button>
+                    </CardActions>
+                    <CardMenu style={{color: '#fff'}}>
+                        <IconButton name="share" />
+                    </CardMenu>
+                </Card>
+            </div>
+            
         )
     } else if(this.state.activeTab === 1) {
         return(
-            <div>
-                <h1>This is Express</h1>
+            <div className="projects-grid">
+                {/* this is project one */}
+                <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                    <CardTitle style={{color: '#fff', height:'176px', background: 'url(https://media.sproutsocial.com/uploads/2015/04/What-is-an-API.png) center / cover'}}> 
+                        API project #1 
+                    </CardTitle>
+                    <CardText>
+                        Lyric App used, bla bla bla bla bla. 
+                    </CardText>
+                    <CardActions border>
+                        <Button colored>GitHub</Button>
+                        <Button colored>Live Demo</Button>
+                    </CardActions>
+                    <CardMenu style={{color: '#fff'}}>
+                        <IconButton name="share" />
+                    </CardMenu>
+                </Card>
+                {/* this is project two */}
+                <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                    <CardTitle style={{color: '#fff', height:'176px', background: 'url(https://media.sproutsocial.com/uploads/2015/04/What-is-an-API.png) center / cover'}}> 
+                        API project #2 
+                    </CardTitle>
+                    <CardText>
+                        Weather APP used, bla bla bla bla bla. 
+                    </CardText>
+                    <CardActions border>
+                        <Button colored>GitHub</Button>
+                        <Button colored>Live Demo</Button>
+                    </CardActions>
+                    <CardMenu style={{color: '#fff'}}>
+                        <IconButton name="share" />
+                    </CardMenu>
+                </Card>
+                {/* this is project three */}
+                <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                    <CardTitle style={{color: '#fff', height:'176px', background: 'url(https://media.sproutsocial.com/uploads/2015/04/What-is-an-API.png) center / cover'}}> 
+                        API project #3 
+                    </CardTitle>
+                    <CardText>
+                        bla bla bla bla 
+                    </CardText>
+                    <CardActions border>
+                        <Button colored>GitHub</Button>
+                        <Button colored>Live Demo</Button>
+                    </CardActions>
+                    <CardMenu style={{color: '#fff'}}>
+                        <IconButton name="share" />
+                    </CardMenu>
+                </Card>
             </div>
         )        
     } else if(this.state.activeTab === 2) {
         return(
-            <div>
-                <h1>This is React</h1>
+            <div className="projects-grid">
+                {/* this is project one */}
+                <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                    <CardTitle style={{color: '#fff', height:'176px', background: 'url(https://media.sproutsocial.com/uploads/2015/04/What-is-an-API.png) center / cover'}}> 
+                        API project #1 
+                    </CardTitle>
+                    <CardText>
+                        Lyric App used, bla bla bla bla bla. 
+                    </CardText>
+                    <CardActions border>
+                        <Button colored>GitHub</Button>
+                        <Button colored>Live Demo</Button>
+                    </CardActions>
+                    <CardMenu style={{color: '#fff'}}>
+                        <IconButton name="share" />
+                    </CardMenu>
+                </Card>
+                {/* this is project two */}
+                <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                    <CardTitle style={{color: '#fff', height:'176px', background: 'url(https://media.sproutsocial.com/uploads/2015/04/What-is-an-API.png) center / cover'}}> 
+                        API project #2 
+                    </CardTitle>
+                    <CardText>
+                        Weather APP used, bla bla bla bla bla. 
+                    </CardText>
+                    <CardActions border>
+                        <Button colored>GitHub</Button>
+                        <Button colored>Live Demo</Button>
+                    </CardActions>
+                    <CardMenu style={{color: '#fff'}}>
+                        <IconButton name="share" />
+                    </CardMenu>
+                </Card>
+                {/* this is project three */}
+                <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                    <CardTitle style={{color: '#fff', height:'176px', background: 'url(https://media.sproutsocial.com/uploads/2015/04/What-is-an-API.png) center / cover'}}> 
+                        API project #3 
+                    </CardTitle>
+                    <CardText>
+                        bla bla bla bla 
+                    </CardText>
+                    <CardActions border>
+                        <Button colored>GitHub</Button>
+                        <Button colored>Live Demo</Button>
+                    </CardActions>
+                    <CardMenu style={{color: '#fff'}}>
+                        <IconButton name="share" />
+                    </CardMenu>
+                </Card>
             </div>
         )
        
     } else if(this.state.activeTab === 3) {
         return(
-            <div>
-                <h1>This is MongoDB</h1>
+            <div className="projects-grid">
+                {/* this is project one */}
+                <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                    <CardTitle style={{color: '#fff', height:'176px', background: 'url(https://media.sproutsocial.com/uploads/2015/04/What-is-an-API.png) center / cover'}}> 
+                        API project #1 
+                    </CardTitle>
+                    <CardText>
+                        Lyric App used, bla bla bla bla bla. 
+                    </CardText>
+                    <CardActions border>
+                        <Button colored>GitHub</Button>
+                        <Button colored>Live Demo</Button>
+                    </CardActions>
+                    <CardMenu style={{color: '#fff'}}>
+                        <IconButton name="share" />
+                    </CardMenu>
+                </Card>
+                {/* this is project two */}
+                <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                    <CardTitle style={{color: '#fff', height:'176px', background: 'url(https://media.sproutsocial.com/uploads/2015/04/What-is-an-API.png) center / cover'}}> 
+                        API project #2 
+                    </CardTitle>
+                    <CardText>
+                        Weather APP used, bla bla bla bla bla. 
+                    </CardText>
+                    <CardActions border>
+                        <Button colored>GitHub</Button>
+                        <Button colored>Live Demo</Button>
+                    </CardActions>
+                    <CardMenu style={{color: '#fff'}}>
+                        <IconButton name="share" />
+                    </CardMenu>
+                </Card>
+                {/* this is project three */}
+                <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                    <CardTitle style={{color: '#fff', height:'176px', background: 'url(https://media.sproutsocial.com/uploads/2015/04/What-is-an-API.png) center / cover'}}> 
+                        API project #3 
+                    </CardTitle>
+                    <CardText>
+                        bla bla bla bla 
+                    </CardText>
+                    <CardActions border>
+                        <Button colored>GitHub</Button>
+                        <Button colored>Live Demo</Button>
+                    </CardActions>
+                    <CardMenu style={{color: '#fff'}}>
+                        <IconButton name="share" />
+                    </CardMenu>
+                </Card>
             </div>  
         )
         
@@ -61,14 +239,11 @@ class Projects extends Component {
                     <Tab>MongoDB</Tab>
                 </Tabs>
 
-                <section className="projectgs-grid">
-                    <Grid className="projects-grid">
-                        <Cell col={12}>
-                            <div className="content">(this.toggleCateories()}</div>
-                        </Cell>
-                    </Grid>
-                    {this.toggleCateories()}
-                </section>
+                <Grid>
+                    <Cell col={12}>
+                        <div className="content">{this.toggleCategories()}</div>
+                    </Cell>
+                </Grid>
             </div>
         )
     }
