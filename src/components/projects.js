@@ -14,13 +14,13 @@ class Projects extends Component {
             <div className="projects-grid">
                 {/* this is project one */}
                 <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                    <CardTitle style={{color: '#fff', height:'176px', background: 'url(https://media.sproutsocial.com/uploads/2015/04/What-is-an-API.png) center / cover'}}> 
-                        API project #1 
+                    <CardTitle style={{color: '#fff', height:'176px', background: 'url(https://wi-images.condecdn.net/image/doEYpG6Xd87/crop/2040/f/weather.jpg) center / cover'}}> 
+                        Project #1: Weather App 
                     </CardTitle>
                     <CardText>
-                        Lyric App used, bla bla bla bla bla. 
+                        Created a weather app.   
                     </CardText>
-                    <CardActions border>
+                    <CardActions border  style={{textAlign: 'center'}}>
                         <Button colored>GitHub</Button>
                         <Button colored>Live Demo</Button>
                     </CardActions>
@@ -30,13 +30,13 @@ class Projects extends Component {
                 </Card>
                 {/* this is project two */}
                 <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                    <CardTitle style={{color: '#fff', height:'176px', background: 'url(https://media.sproutsocial.com/uploads/2015/04/What-is-an-API.png) center / cover'}}> 
-                        API project #2 
+                    <CardTitle style={{color: '#fff', height:'176px', background: 'url(https://cdn.searchenginejournal.com/wp-content/uploads/2019/06/shutterstock_281140775-1520x800.png) center / cover'}}> 
+                        Project #2: Lyric App 
                     </CardTitle>
                     <CardText>
-                        Weather APP used, bla bla bla bla bla. 
+                        Created a Lyric App that shows you lyrics to any song for mobile phones. 
                     </CardText>
-                    <CardActions border>
+                    <CardActions border  style={{textAlign: 'center'}}>
                         <Button colored>GitHub</Button>
                         <Button colored>Live Demo</Button>
                     </CardActions>
@@ -52,7 +52,7 @@ class Projects extends Component {
                     <CardText>
                         bla bla bla bla 
                     </CardText>
-                    <CardActions border>
+                    <CardActions border  style={{textAlign: 'center'}}>
                         <Button colored>GitHub</Button>
                         <Button colored>Live Demo</Button>
                     </CardActions>
@@ -74,7 +74,7 @@ class Projects extends Component {
                     <CardText>
                         Lyric App used, bla bla bla bla bla. 
                     </CardText>
-                    <CardActions border>
+                    <CardActions border style={{textAlign: 'center'}}>
                         <Button colored>GitHub</Button>
                         <Button colored>Live Demo</Button>
                     </CardActions>
@@ -90,7 +90,7 @@ class Projects extends Component {
                     <CardText>
                         Weather APP used, bla bla bla bla bla. 
                     </CardText>
-                    <CardActions border>
+                    <CardActions border style={{textAlign: 'center'}}>
                         <Button colored>GitHub</Button>
                         <Button colored>Live Demo</Button>
                     </CardActions>
@@ -106,7 +106,7 @@ class Projects extends Component {
                     <CardText>
                         bla bla bla bla 
                     </CardText>
-                    <CardActions border>
+                    <CardActions border style={{textAlign: 'center'}}>
                         <Button colored>GitHub</Button>
                         <Button colored>Live Demo</Button>
                     </CardActions>
@@ -127,7 +127,7 @@ class Projects extends Component {
                     <CardText>
                         Lyric App used, bla bla bla bla bla. 
                     </CardText>
-                    <CardActions border>
+                    <CardActions border style={{textAlign: 'center'}}>
                         <Button colored>GitHub</Button>
                         <Button colored>Live Demo</Button>
                     </CardActions>
@@ -143,7 +143,7 @@ class Projects extends Component {
                     <CardText>
                         Weather APP used, bla bla bla bla bla. 
                     </CardText>
-                    <CardActions border>
+                    <CardActions border style={{textAlign: 'center'}}>
                         <Button colored>GitHub</Button>
                         <Button colored>Live Demo</Button>
                     </CardActions>
@@ -159,7 +159,7 @@ class Projects extends Component {
                     <CardText>
                         bla bla bla bla 
                     </CardText>
-                    <CardActions border>
+                    <CardActions border style={{textAlign: 'center'}}>
                         <Button colored>GitHub</Button>
                         <Button colored>Live Demo</Button>
                     </CardActions>
@@ -181,7 +181,7 @@ class Projects extends Component {
                     <CardText>
                         Lyric App used, bla bla bla bla bla. 
                     </CardText>
-                    <CardActions border>
+                    <CardActions border style={{textAlign: 'center'}}>
                         <Button colored>GitHub</Button>
                         <Button colored>Live Demo</Button>
                     </CardActions>
@@ -197,7 +197,7 @@ class Projects extends Component {
                     <CardText>
                         Weather APP used, bla bla bla bla bla. 
                     </CardText>
-                    <CardActions border>
+                    <CardActions border style={{textAlign: 'center'}}>
                         <Button colored>GitHub</Button>
                         <Button colored>Live Demo</Button>
                     </CardActions>
@@ -213,9 +213,9 @@ class Projects extends Component {
                     <CardText>
                         bla bla bla bla 
                     </CardText>
-                    <CardActions border>
+                    <CardActions border style={{textAlign: 'center'}}>
                         <Button colored>GitHub</Button>
-                        <Button colored>Live Demo</Button>
+                        <Button colored >Live Demo</Button>
                     </CardActions>
                     <CardMenu style={{color: '#fff'}}>
                         <IconButton name="share" />
