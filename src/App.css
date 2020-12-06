@@ -47,6 +47,15 @@
     margin-bottom: 20px;
 }
 
+.contact-grid h2 {
+    font-family: 'anton', sans-serif;
+}
+
+.contact-grid p {
+    font-family: 'oxygen', sans-serif;
+    font-weight: 'bold';
+}
+
 
 .tara-img {
     height: 250px;
