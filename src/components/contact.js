@@ -12,7 +12,7 @@ class Contact extends Component {
                         <h2>Tara Dehdari</h2>
                         <img 
                             src={pic}
-                            alt="avatar"
+                            alt="tara"
                             style={{height: '250px'}}
                         />
                         <p style={{ width: '75%', margin: 'auto', paddingTop: '1em' }}>

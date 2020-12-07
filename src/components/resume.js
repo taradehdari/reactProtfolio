@@ -1,12 +1,38 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
+import pic from '../assets/me.PNG'
 
 class Resume extends Component {
     render() {
         return(
             <div>
                 <Grid>
-                    <Cell col={4}>Left Side</Cell>
+                    <Cell col={4}>
+                        <div style={{textAlign: 'center'}}>
+                            <img
+                                src={pic}
+                                alt="tara"
+                                style={{height: '250px'}}
+                            /> 
+                        </div>
+                        <h2 style={{paddingTop:'2em'}}>Tara Dehdari</h2>
+                        <h4 style={{color: 'grey'}}>Programmer</h4>
+                        <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
+                        <p>
+                            MOOO ADF AEF AWEHF AWEf ak;ef halufh;awio;efa  a;dfk edslfa;dofja vd;fkn aed;sfn vae;iofhaokd snladf;j
+                        </p>
+                        <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
+                        <h5>Address</h5>
+                        <p>1234 invisible st, 23456</p>
+                        <h5>Phone</h5>
+                        <p>(510)909-8638</p>
+                        <h5>Email</h5>
+                        <p>tara.dehdari@gmail.com</p>
+                        <h5>Web</h5>
+                        <p>https://www.linkedin.com/in/tara-dehdari-a82880132/</p>
+                        <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
+
+                    </Cell>
                     <Cell className="resume-right-col" col={8}>Right Side</Cell>
                 </Grid>
             </div>
