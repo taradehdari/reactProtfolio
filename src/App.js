@@ -13,7 +13,7 @@ function App() {
           className="header-color"
           title={
             <Link style={{ textDecoration: "none", color: "white" }} to="/">
-              My Protfolio
+              My Portfolio
             </Link>
           }
           scroll
@@ -28,7 +28,7 @@ function App() {
         <Drawer
           title={
             <Link style={{ textDecoration: "none", color: "black" }} to="/">
-              My Protfolio
+              My Portfolio
             </Link>
           }
         >

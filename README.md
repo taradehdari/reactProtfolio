@@ -1,4 +1,4 @@
-# My React Protfolio
+# My React Portfolio
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -16,8 +16,8 @@ This project is a react protfolio showcasing all of my projects and resumes. Thi
 
 ## Deployed Website
 
-[Tara's Protfolio](https://taras-protfolio.herokuapp.com/)
+[Tara's Portfolio](https://taras-protfolio.herokuapp.com/)
 
 ## Demo
 
-![Protfolio Demonstration](./protfolio.gif.gif)
+![Portfolio Demonstration](./protfolio.gif.gif)
